@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Masum Billah || Developer</title>
+    <!-- icon -->
+    <link rel="icon" href="/img/icon.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- zoom in animantion css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google font css-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- icons css css-->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- style css -->
+
+    <link rel="stylesheet" href="/css/test.css">
+
+    <!-- resposive css -->
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="loader_bg">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <nav>
+        <label for="" class="logo"><img class="sign1" src="/img/signature_mb.png" alt="logo" width="50%"></label>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#project">Project</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="/blog.html" target="_blank">Blog</a>
+            </li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+    <form>
+        <h1>How are you feeling today?</h1>
+        <input class="hide" type="checkbox" title="Happy" name="happy" id="happy">
+        <label for="happy" class="option-happy">Happy</label>
+
+        <input class="hide" type="checkbox" title="Sad" name="sad" id="sad">
+        <label for="sad" class="option-sad">Sad</label>
+
+        <input class="hide" type="checkbox" title="Meh" name="meh" id="meh">
+        <label for="meh" class="option-meh">Meh</label>
+    </form>
+
+    <h2>test</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery js-->
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- preloader js -->
+    <script>
+        setTimeout(function() {
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script>
+    <!-- scroll -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        var layer = $('#mousemove');
+        layer.mousemove(function(e) {
+            var valueX = (e.pageX * -1 / 10);
+            var valueY = (e.pageY * -1 / 10);
+            layer.css({
+                'transform': 'translate3d(' + valueX + 'px, ' + valueY + 'px,0)'
+            });
+
+        });
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+    <!-- zoom in js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
