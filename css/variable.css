@@ -26,6 +26,10 @@ header {
     background: black;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 :root {
     --primary-color: #ffffff;
     --primary-color2: #000000;

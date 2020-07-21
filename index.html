@@ -18,10 +18,13 @@
     <!-- icons css css-->
     <link rel="stylesheet" href="./css/all.min.css">
     <!-- preloader css -->
-    <link rel="stylesheet" href="./css/style1.css">
     <link rel="stylesheet" href="./css/preloader.css">
     <!-- variable css -->
     <link rel="stylesheet" href="./css/variable.css">
+    <!-- iconfont css -->
+    <link rel="stylesheet" href="./css/icofont/icofont.min.css">
+    <!-- header css -->
+    <link rel="stylesheet" href="./css/header.css">
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.min.css">
 
@@ -47,42 +50,38 @@
     </div>
 
     <!-- navbar -->
-    <div>
-        <header class="header_area">
-            <div class="main-menu">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="#home"><img class="sign1" src="./img/signature_mb.png" alt="logo" width="50%"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon">
-                     
-                  </span>
-                  <span>Menu</span>
-                </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="mr-auto">
-                        </div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#project">Project</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/blog.html" target="_blank">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-    </div>
+    <header class="header_area" id="header">
+        <div class="container d-flex align-items-center">
+            <a href="#" class="logo mr-auto scrollto"><img src="./img/signature_mb.png" alt="" class="img-fluid"></a>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"> <a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li> <a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li> <a href="./blog.html" target="_blank">Blog</a></li>
+                    <!-- <li class="drop-down"><a href="">Drop Down</a>
+                            <ul>
+                                <li><a href="#">Drop Down 1</a></li>
+                                <li class="drop-down"><a href="#">Deep Drop Down</a>
+                                    <ul>
+                                        <li><a href="#">Deep Drop Down 1</a></li>
+                                        <li><a href="#">Deep Drop Down 2</a></li>
+                                        <li><a href="#">Deep Drop Down 3</a></li>
+                                        <li><a href="#">Deep Drop Down 4</a></li>
+                                        <li><a href="#">Deep Drop Down 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Drop Down 2</a></li>
+                                <li><a href="#">Drop Down 3</a></li>
+                                <li><a href="#">Drop Down 4</a></li>
+                            </ul>
+                        </li> -->
+                </ul>
+            </nav>
+
+        </div>
+    </header>
 
     <!-- main body -->
 
@@ -131,7 +130,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-6 col-md-12 about-title" data-aos="zoom-in-left">
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="zoom-in">
                         <h2 class="text-uppercase pt-5">
                             <span>
                                Let me
@@ -386,15 +385,6 @@
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         });
-        var layer = $('#mousemove');
-        layer.mousemove(function(e) {
-            var valueX = (e.pageX * -1 / 10);
-            var valueY = (e.pageY * -1 / 10);
-            layer.css({
-                'transform': 'translate3d(' + valueX + 'px, ' + valueY + 'px,0)'
-            });
-
-        });
     </script>
     <!-- zoom in js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -403,6 +393,7 @@
     </script>
     <script src="./js/particles.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/header.js"></script>
 </body>
 
 </html>
