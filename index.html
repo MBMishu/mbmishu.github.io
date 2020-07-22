@@ -360,6 +360,13 @@
     <script src="./js/bootstrap.min.js"></script>
     <!-- preloader js -->
     <script>
+        document.addEventListener("mousemove", function(e) {
+            var rocket = document.querySelector('.rocket');
+            rocket.style.left = e.offsetX + 'px';
+            rocket.style.top = e.offsetY + 'px';
+        });
+
+
         function stars() {
             let count = 20;
             let scene = document.querySelector('.scene');
@@ -381,7 +388,7 @@
         stars();
         setTimeout(function() {
             $('.loader_bg').fadeToggle();
-        }, 300);
+        }, 1000);
     </script>
     <!-- scroll -->
     <script type="text/javascript">

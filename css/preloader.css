@@ -35,15 +35,17 @@
 }
 
 .scene .rocket {
+    position: absolute;
+    pointer-events: none;
     animation: animate .2s ease infinite;
 }
 
 @keyframes animate {
     0% {
-        transform: translateY(-2px);
+        transform: translateY(-52px);
     }
     50% {
-        transform: translateY(2px);
+        transform: translateY(-48px);
     }
 }
 

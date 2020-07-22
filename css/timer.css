@@ -1,0 +1,44 @@
+.clock {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.clock div {
+    position: relative;
+    padding: 1rem;
+    margin: 0.3rem;
+    background: #262626;
+    border: 1px solid wheat;
+    text-align: center;
+}
+
+.clock div:last-child {
+    background: linear-gradient(#911728, #911728);
+}
+
+.clock div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.clock div span {
+    display: block;
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 425px) {
+    .clock div span {
+        display: block;
+        font-size: 24px;
+    }
+}
+
+.countdown {
+    color: white;
+}
