@@ -126,10 +126,18 @@ header.sticky {
 }
 
 .nav-menu .drop-down .drop-down>a:after {
-    content: "\eaa0";
+    content: "\ea9d";
     font-family: IcoFont;
     position: absolute;
     right: 15px;
+}
+
+.nav-menu .drop-down .drop-down ul {
+    left: -90%;
+}
+
+.nav-menu .drop-down .drop-down:hover>ul {
+    left: -100%;
 }
 
 @media (max-width: 1366px) {
