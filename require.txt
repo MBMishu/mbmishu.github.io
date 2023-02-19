@@ -1,5 +1,0 @@
-pillow
-django==2.1
-pymysql
-django-ckeditor
-python-dotenv
