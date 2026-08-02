@@ -1,0 +1,22 @@
+{
+  "api_contact": {
+    "heading_lines": ["Let's build", "something."],
+    "intro": "Open to collaborations, full-stack and robotics opportunities, or just a friendly chat. Reach me through any of these.",
+    "email": "masum@dubotech.com",
+    "phone": "+8801719118554",
+    "phone_display": "(+88) 01719118554",
+    "location": "Dhaka, Bangladesh",
+    "terminal_prompt": "mishu@ubuntu",
+    "terminal_path": "~/contact",
+    "response_time": "usually within 24 hours",
+    "socials": [
+      { "label": "GitHub", "url": "https://github.com/MBMishu" },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/masum-billah-mishu/"
+      },
+      { "label": "Facebook", "url": "https://www.facebook.com/masum.mishu.1" },
+      { "label": "Instagram", "url": "https://www.instagram.com/mb_mishu/" }
+    ]
+  }
+}

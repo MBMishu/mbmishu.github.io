@@ -1,0 +1,166 @@
+{
+  "api_my_project": [
+    {
+      "id": 1,
+      "project_name": "fighting bot",
+      "details": "",
+      "project_status": "picture",
+      "project_type": "Robotics",
+      "project_link": null,
+      "project_photo": "assets/projects/fighting-bot.jpg"
+    },
+    {
+      "id": 2,
+      "project_name": "cansat",
+      "details": "A CanSat is a simulation of a real satellite, integrated within the volume and shape of a soft drink can.",
+      "project_status": "video",
+      "project_type": "Robotics",
+      "project_link": "https://youtu.be/cJoskliIvvc",
+      "project_photo": "assets/projects/cansat.jpg"
+    },
+    {
+      "id": 3,
+      "project_name": "traction",
+      "details": "",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://traction.bracurobu.org/",
+      "project_photo": "assets/projects/traction.png"
+    },
+    {
+      "id": 4,
+      "project_name": "iobot",
+      "details": "Autonomous rescue bot using computer vision. It can assist the victim on its own by sending them a health kit and a hammer, both of which can save their lives. It is also a data mining bot using pH, humidity, temperature, and moisture sensors.",
+      "project_status": "video",
+      "project_type": "Robotics",
+      "project_link": "https://youtu.be/ZEeH8pnP5Ro",
+      "project_photo": "assets/projects/iobot.jpeg"
+    },
+    {
+      "id": 6,
+      "project_name": "dashboard",
+      "details": "",
+      "project_status": "picture",
+      "project_type": "Web",
+      "project_link": null,
+      "project_photo": "assets/projects/dashboard.png"
+    },
+    {
+      "id": 7,
+      "project_name": "easy app",
+      "details": "Designed & developed a multi level marketing app.",
+      "project_status": "picture",
+      "project_type": "Others",
+      "project_link": null,
+      "project_photo": "assets/projects/easy-app.png"
+    },
+    {
+      "id": 8,
+      "project_name": "Ar",
+      "details": "Web based Augmented reality using Ar.js. Designed & Developed this to identify product using web based Augmented reality.",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://ar.mbmishu.com/",
+      "project_photo": "assets/projects/ar.png"
+    },
+    {
+      "id": 9,
+      "project_name": "CgRealty",
+      "details": "CG Commercial Realty is a real estate firm. Developed this website using HTML, CSS & JavaScript",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://cgcrealty.com/",
+      "project_photo": "assets/projects/cgrealty.png"
+    },
+    {
+      "id": 10,
+      "project_name": "allergic2allergies",
+      "details": "Designed and developed a blogging website using Django framework.",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://allergic2allergies.com/",
+      "project_photo": "assets/projects/allergic2allergies.png"
+    },
+    {
+      "id": 11,
+      "project_name": "Drone Surveillance",
+      "details": "By using OpenCV and yolov3 to identify objects in an video footage. Non-maximum suppression (NMS) has been used to eliminate duplicates and assign a unique identifier to each object and count the total number of objects in the junkyard. This allowed us to accurately keep track of the objects and their count.",
+      "project_status": "video",
+      "project_type": "AI",
+      "project_link": "https://www.youtube.com/watch?v=-98uEulR2EQ&feature=youtu.be",
+      "project_photo": "assets/projects/drone-surveillance.png"
+    },
+    {
+      "id": 12,
+      "project_name": "DUBURI",
+      "details": "BRACU Duburi team is working day and night to build a community of AUV and ROV hobbyists and enthusiasts to produce Industrial grade underwater vehicle solutions at affordable cost and build a test facility for the future generation of ROV enthusiasts in Bangladesh.",
+      "project_status": "video",
+      "project_type": "Robotics",
+      "project_link": "https://youtu.be/qwSKx36avbQ",
+      "project_photo": "assets/projects/duburi.png"
+    },
+    {
+      "id": 13,
+      "project_name": "Duburi Website",
+      "details": "I have used to develop Duburi frontend website with Angular12, Bootstrap 4. For the backend I have used Django Rest Framework and mysql for the database.",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://bracuduburi.com/",
+      "project_photo": "assets/projects/duburi-website.png"
+    },
+    {
+      "id": 14,
+      "project_name": "Typing Statistics",
+      "details": "Typing Statistics website to check word count, character count, typing count, inactive count. using JavaScript and Django.",
+      "project_status": "picture",
+      "project_type": "Web",
+      "project_link": "https://type.bracu-duburi.com/",
+      "project_photo": "assets/projects/typing-statistics.png"
+    },
+    {
+      "id": 15,
+      "project_name": "Website of a Robotics Servics",
+      "details": "Develop this website's frontend using Angular 15, Bootstrap 4, SweetAlert & Venobox library",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://dubotech.com/",
+      "project_photo": "assets/projects/robotics-services.png"
+    },
+    {
+      "id": 16,
+      "project_name": "Slot Booking",
+      "details": "",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://slot.bracu-duburi.com/",
+      "project_photo": "assets/projects/slot-booking.png"
+    },
+    {
+      "id": 17,
+      "project_name": "Diabetes Prediction",
+      "details": "The project aims to leverage the Diabetes Prediction dataset, which contains a comprehensive array of medical and demographic data from patients, including features such as age, gender, body mass index (BMI), hypertension, heart disease, smoking history, HbA1c level, and blood glucose level. By utilizing this dataset, the project seeks to develop machine learning models that can effectively predict the presence or likelihood of diabetes in individuals based on their unique medical history and demographic information.",
+      "project_status": "website",
+      "project_type": "AI",
+      "project_link": "https://github.com/MBMishu/diabetes_prediction",
+      "project_photo": "assets/projects/diabetes-prediction.png"
+    },
+    {
+      "id": 18,
+      "project_name": "Paintink!",
+      "details": "",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://paintinkbys.com/",
+      "project_photo": "assets/projects/paintink.png"
+    },
+    {
+      "id": 19,
+      "project_name": "DuboTech Web",
+      "details": "",
+      "project_status": "website",
+      "project_type": "Web",
+      "project_link": "https://dubotech.com/",
+      "project_photo": "assets/projects/dubotech-web.png"
+    }
+  ]
+}

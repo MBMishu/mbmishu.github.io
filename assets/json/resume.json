@@ -1,0 +1,43 @@
+{
+  "api_resume": {
+    "full_name": "A.T.M. Masum Billah",
+    "display_name": "A.T.M. Masum Billah (Mishu)",
+    "name_lines": ["A.T.M. Masum", "Billah"],
+    "role": "Full-stack developer & robotics enthusiast",
+    "photo": "assets/img/b1.jpg",
+    "cv_file": "assets/A.T.M. masum Billah.pdf",
+    "cv_label": "↓ Download CV",
+    "hero_intro": [
+      { "text": "I build full-stack applications and robotics systems end to end — co-founder at ", "highlight": false },
+      { "text": "Dubotech Digital", "highlight": true },
+      { "text": ", robotics instructor at ", "highlight": false },
+      { "text": "BRAC University", "highlight": true },
+      { "text": ".", "highlight": false }
+    ],
+    "about_lead": [
+      { "text": "I'm ", "highlight": false },
+      { "text": "A.T.M. Masum Billah (Mishu)", "highlight": true },
+      { "text": " — a full-stack application developer and robotics enthusiast who wants to explore every tech out there.", "highlight": false }
+    ],
+    "about_paragraphs": [
+      "I hold a Bachelor's degree in Computer Science from BRAC University. Alongside my work in robotics and automation, I'm dedicated to exploring machine vision, machine learning, and full-stack software development.",
+      "As co-founder of Dubotech Digital I ship web platforms end to end. I also serve as a Robotics Instructor at BRAC University's Residential Campus, sharing my knowledge and enthusiasm with the next generation of innovators."
+    ],
+    "focus_tags": [
+      "Full-stack development",
+      "Robotics & automation",
+      "Machine vision & ML"
+    ],
+    "terminal": {
+      "prompt": "mishu@ubuntu",
+      "path": "~/portfolio",
+      "whoami": "A.T.M. Masum Billah (Mishu)",
+      "profile": {
+        "role": "Full-stack developer",
+        "company": "Dubotech Digital",
+        "teaches": "Robotics @ BRAC University",
+        "focus": ["robotics", "ml", "web"]
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "api_skill": [
+    {
+      "id": 14,
+      "skill_name": "Rest Api",
+      "skill_photo": "assets/skills/restapi.png"
+    },
+    {
+      "id": 15,
+      "skill_name": "Android Studio",
+      "skill_photo": "assets/skills/android-studio.png"
+    },
+    {
+      "id": 16,
+      "skill_name": "vs Code",
+      "skill_photo": "assets/skills/vs-code.png"
+    },
+    {
+      "id": 17,
+      "skill_name": "postman",
+      "skill_photo": "assets/skills/postman.png"
+    },
+    {
+      "id": 18,
+      "skill_name": "Jupyter",
+      "skill_photo": "assets/skills/jupyter.png"
+    },
+    {
+      "id": 19,
+      "skill_name": "Html",
+      "skill_photo": "assets/skills/html.png"
+    },
+    {
+      "id": 20,
+      "skill_name": "CSS",
+      "skill_photo": "assets/skills/css.png"
+    },
+    {
+      "id": 21,
+      "skill_name": "Firebase",
+      "skill_photo": "assets/skills/firebase.png"
+    },
+    {
+      "id": 22,
+      "skill_name": "JavaScript",
+      "skill_photo": "assets/skills/javascript.png"
+    },
+    {
+      "id": 23,
+      "skill_name": "Angular",
+      "skill_photo": "assets/skills/angular.png"
+    },
+    {
+      "id": 24,
+      "skill_name": "React",
+      "skill_photo": "assets/skills/react.png"
+    },
+    {
+      "id": 25,
+      "skill_name": "python",
+      "skill_photo": "assets/skills/python.png"
+    },
+    {
+      "id": 26,
+      "skill_name": "django",
+      "skill_photo": "assets/skills/django.png"
+    },
+    {
+      "id": 27,
+      "skill_name": "php",
+      "skill_photo": "assets/skills/php.png"
+    },
+    {
+      "id": 28,
+      "skill_name": "mysql",
+      "skill_photo": "assets/skills/mysql.png"
+    },
+    {
+      "id": 29,
+      "skill_name": "docker",
+      "skill_photo": "assets/skills/docker.png"
+    },
+    {
+      "id": 30,
+      "skill_name": "Tensorflow",
+      "skill_photo": "assets/skills/tensorflow.png"
+    },
+    {
+      "id": 31,
+      "skill_name": "linux",
+      "skill_photo": "assets/skills/linux.png"
+    },
+    {
+      "id": 32,
+      "skill_name": "Arduino",
+      "skill_photo": "assets/skills/arduino.png"
+    },
+    {
+      "id": 33,
+      "skill_name": "FastApi",
+      "skill_photo": "assets/skills/fastapi.png"
+    },
+    {
+      "id": 34,
+      "skill_name": "PostgreSQL",
+      "skill_photo": "assets/skills/postgresql.png"
+    },
+    {
+      "id": 35,
+      "skill_name": "Ros2",
+      "skill_photo": "assets/skills/ros2.png"
+    }
+  ]
+}
