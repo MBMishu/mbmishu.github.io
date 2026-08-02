@@ -1,52 +1,53 @@
 {
-"api_work": [
-	{
-		"id" : 2,
-		"resume_title" : "Co-Founder",
-		"resume_date" : "2020-2022",
-		"resume_place" : "Alo",
-		"resume_icon" : "fas fa-robot"
-	},
-	{
-		"id" : 3,
-		"resume_title" : "Full Stack Developer",
-		"resume_date" : "2021-2022",
-		"resume_place" : "Team Good Graphics",
-		"resume_icon" : "fas fa-laptop-code"
-	},
-	{
-		"id" : 4,
-		"resume_title" : "General Secretary",
-		"resume_date" : "2021-2023",
-		"resume_place" : "Robotics Club of BRAC UNIVERSITY",
-		"resume_icon" : "fas fa-robot"
-	},
-	{
-		"id" : 5,
-		"resume_title" : "Machine Vision Lead",
-		"resume_date" : "2021-2022",
-		"resume_place" : "BRACU DUBURI, Bangladesh",
-		"resume_icon" : "fas fa-robot"
-	},
-	{
-		"id" : 6,
-		"resume_title" : "Team Lead",
-		"resume_date" : "2023 - 2024",
-		"resume_place" : "BRACU DUBURI, Bangladesh",
-		"resume_icon" : "fas fa-robot"
-	},
-	{
-		"id" : 7,
-		"resume_title" : "Instructor",
-		"resume_date" : "May 2022- April 2025",
-		"resume_place" : "BRAC University Residenstial Campus",
-		"resume_icon" : "fas fa-laptop-code"
-	},
-	{
-		"id" : 8,
-		"resume_title" : "Co-Founder",
-		"resume_date" : "2023-",
-		"resume_place" : "Dubotech Digital Ltd.",
-		"resume_icon" : "fas fa-robot"
-	}
-]}
+  "api_work": [
+    {
+      "id": 2,
+      "resume_title": "Co-Founder",
+      "resume_date": "2020-2022",
+      "resume_place": "Alo",
+      "resume_icon": "fas fa-robot"
+    },
+    {
+      "id": 3,
+      "resume_title": "Full Stack Developer",
+      "resume_date": "2021-2022",
+      "resume_place": "Team Good Graphics",
+      "resume_icon": "fas fa-laptop-code"
+    },
+    {
+      "id": 4,
+      "resume_title": "General Secretary",
+      "resume_date": "2021-2023",
+      "resume_place": "Robotics Club of BRAC UNIVERSITY",
+      "resume_icon": "fas fa-robot"
+    },
+    {
+      "id": 5,
+      "resume_title": "Machine Vision Lead",
+      "resume_date": "2021-2022",
+      "resume_place": "BRACU DUBURI, Bangladesh",
+      "resume_icon": "fas fa-robot"
+    },
+    {
+      "id": 6,
+      "resume_title": "Team Lead",
+      "resume_date": "2023 - 2024",
+      "resume_place": "BRACU DUBURI, Bangladesh",
+      "resume_icon": "fas fa-robot"
+    },
+    {
+      "id": 7,
+      "resume_title": "Instructor",
+      "resume_date": "May 2022- April 2025",
+      "resume_place": "BRAC University Residenstial Campus",
+      "resume_icon": "fas fa-laptop-code"
+    },
+    {
+      "id": 8,
+      "resume_title": "Co-Founder",
+      "resume_date": "2024-",
+      "resume_place": "Dubotech Digital Ltd.",
+      "resume_icon": "fas fa-robot"
+    }
+  ]
+}

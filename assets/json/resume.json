@@ -8,7 +8,10 @@
     "cv_file": "assets/A.T.M. masum Billah.pdf",
     "cv_label": "↓ Download CV",
     "hero_intro": [
-      { "text": "I build full-stack applications and robotics systems end to end — co-founder at ", "highlight": false },
+      {
+        "text": "I build full-stack applications and robotics systems end to end — co-founder at ",
+        "highlight": false
+      },
       { "text": "Dubotech Digital", "highlight": true },
       { "text": ", robotics instructor at ", "highlight": false },
       { "text": "BRAC University", "highlight": true },
@@ -17,7 +20,10 @@
     "about_lead": [
       { "text": "I'm ", "highlight": false },
       { "text": "A.T.M. Masum Billah (Mishu)", "highlight": true },
-      { "text": " — a full-stack application developer and robotics enthusiast who wants to explore every tech out there.", "highlight": false }
+      {
+        "text": " — a full-stack application developer and robotics enthusiast who wants to explore every tech out there.",
+        "highlight": false
+      }
     ],
     "about_paragraphs": [
       "I hold a Bachelor's degree in Computer Science from BRAC University. Alongside my work in robotics and automation, I'm dedicated to exploring machine vision, machine learning, and full-stack software development.",
@@ -36,7 +42,7 @@
         "role": "Full-stack developer",
         "company": "Dubotech Digital",
         "teaches": "Robotics @ BRAC University",
-        "focus": ["robotics", "ml", "web"]
+        "focus": ["robotics", "machine vision", "web"]
       }
     }
   }
