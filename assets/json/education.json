@@ -1,24 +1,25 @@
 {
-"api_education": [
-	{
-		"id" : 1,
-		"title" : "ssc (bangla VERSION)",
-		"date" : "2005 - 2015",
-		"place" : "Monipur High School And College, Bangladesh",
-		"icon" : "fas fa-school"
-	},
-	{
-		"id" : 2,
-		"title" : "HSC (bangla VERSION)",
-		"date" : "2015 - 2017",
-		"place" : "Adamjee Cantonment College, Bangladesh",
-		"icon" : "fas fa-graduation-cap"
-	},
-	{
-		"id" : 3,
-		"title" : "Bachelor of Science in Computer Science",
-		"date" : "2018-2024",
-		"place" : "BRAC University, Bangladesh",
-		"icon" : "fas fa-user-graduate"
-	}
-]}
+  "api_education": [
+    {
+      "id": 1,
+      "title": "Secondary School Certificate (Bangla Version)",
+      "date": "2005 – 2015",
+      "place": "Monipur High School & College, Dhaka, Bangladesh",
+      "icon": "fas fa-school"
+    },
+    {
+      "id": 2,
+      "title": "Higher Secondary Certificate (Bangla Version)",
+      "date": "2015 – 2017",
+      "place": "Adamjee Cantonment College, Dhaka, Bangladesh",
+      "icon": "fas fa-graduation-cap"
+    },
+    {
+      "id": 3,
+      "title": "Bachelor of Science in Computer Science",
+      "date": "2018 – 2024",
+      "place": "BRAC University, Dhaka, Bangladesh",
+      "icon": "fas fa-user-graduate"
+    }
+  ]
+}
