@@ -1,11 +1,8 @@
 {
   "api_resume": {
-    "full_name": "A.T.M. Masum Billah",
+    "full_name": "A.T.M. Masum Billah (Mishu)",
     "display_name": "A.T.M. Masum Billah (Mishu)",
-    "name_lines": [
-      "A.T.M. Masum",
-      "Billah"
-    ],
+    "name_lines": ["A.T.M. Masum", "Billah"],
     "role": "Full-stack developer & robotics enthusiast",
     "photo": "assets/img/b1.jpg",
     "cv_file": "assets/Masum-Billah-Resume.pdf",
@@ -34,29 +31,21 @@
     ],
     "about_paragraphs": [
       "I hold a Bachelor's degree in Computer Science from BRAC University. Alongside my work in robotics and automation, I'm dedicated to exploring machine vision, machine learning, and full-stack software development.",
-      "As co-founder of Dubotech Digital LTD. I ship web platforms end to end. I also serve as a Robotics Instructor at BRAC University's Residential Campus, sharing my knowledge and enthusiasm with the next generation of innovators."
+      "As co-founder of Dubotech Digital LTD. I ship autonomous solutions end to end. I also serve as a Robotics Instructor at BRAC University's Residential Campus, sharing my knowledge and enthusiasm with the next generation of innovators."
     ],
     "terminal": {
       "prompt": "mishu@ubuntu",
       "path": "~",
-      "whoami": "A.T.M. Masum Billah",
-      "autoplay": [
-        "whoami",
-        "cat profile.json",
-        "ls skills/"
-      ],
+      "whoami": "A.T.M. Masum Billah (Mishu)",
+      "autoplay": ["whoami", "cat profile.json", "ls skills/"],
       "profile": {
         "role": "Full-stack developer",
         "company": "Dubotech Digital Ltd.",
         "teaches": "Robotics @ BRAC University",
-        "focus": [
-          "robotics",
-          "machine vision",
-          "web"
-        ]
+        "focus": ["robotics", "machine vision", "web"]
       }
     },
-    "about_heading": "Underwater robots, AI, and the web.",
+    "about_heading": "Robotics, Machine Vision, and Web",
     "awards": [
       {
         "year": "2024",
